@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geet Sehgal</title>
+<meta name="description" content="Geet Sehgal — operations, analytics and the projects underneath them.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;600&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0B1220;
+    --navy-2:#101A2E;
+    --gold:#C9A227;
+    --teal:#2DD4BF;
+    --ink:#E8EAED;
+    --ink-dim:#9AA5B1;
+    --line:#22304A;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--navy);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    line-height:1.6;
+  }
+  .wrap{
+    max-width:640px;
+    margin:0 auto;
+    padding:4.5rem 1.5rem 3rem;
+  }
+  h1{
+    font-family:'Spectral',serif;
+    font-weight:600;
+    font-size:2.1rem;
+    margin:0 0 .35rem;
+    color:var(--ink);
+  }
+  .role{
+    font-family:'JetBrains Mono',monospace;
+    font-size:.85rem;
+    color:var(--teal);
+    margin:0 0 2rem;
+  }
+  p.lede{
+    color:var(--ink-dim);
+    max-width:44ch;
+    margin:0 0 2.5rem;
+  }
+  .primary{
+    display:block;
+    border:1px solid var(--gold);
+    border-radius:6px;
+    padding:1rem 1.25rem;
+    margin-bottom:2.5rem;
+    text-decoration:none;
+    color:var(--ink);
+    transition:background .15s ease;
+  }
+  .primary:hover{background:var(--navy-2);}
+  .primary .label{
+    font-family:'JetBrains Mono',monospace;
+    font-size:.78rem;
+    color:var(--gold);
+    display:block;
+    margin-bottom:.3rem;
+  }
+  .primary .title{
+    font-family:'Spectral',serif;
+    font-size:1.15rem;
+  }
+  h2{
+    font-family:'Spectral',serif;
+    font-weight:600;
+    font-size:1.05rem;
+    color:var(--ink-dim);
+    border-bottom:1px solid var(--line);
+    padding-bottom:.6rem;
+    margin:0 0 1rem;
+  }
+  ul{list-style:none;margin:0 0 2rem;padding:0;}
+  li{
+    border-bottom:1px solid var(--line);
+  }
+  li a{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:1rem;
+    padding:.9rem 0;
+    text-decoration:none;
+    color:var(--ink);
+  }
+  li a:hover .name{color:var(--teal);}
+  li .name{font-size:1rem;}
+  li .desc{
+    color:var(--ink-dim);
+    font-size:.85rem;
+    text-align:right;
+    flex-shrink:0;
+  }
+  footer{
+    color:var(--ink-dim);
+    font-family:'JetBrains Mono',monospace;
+    font-size:.78rem;
+  }
+  footer a{color:var(--ink-dim);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Geet Sehgal</h1>
+    <p class="role">operations · analytics · marketing</p>
+    <p class="lede">This is the index for my GitHub projects. The full portfolio — resume, writing, and background — lives on Neocities.</p>
+
+    <a class="primary" href="https://geetsehgal.neocities.org">
+      <span class="label">main site</span>
+      <span class="title">geetsehgal.neocities.org →</span>
+    </a>
+
+    <h2>Projects on this domain</h2>
+    <ul>
+      <li>
+        <a href="https://geetsehgal.github.io/business-analyst-portfolio">
+          <span class="name">business-analyst-portfolio</span>
+          <span class="desc">business analyst portfolio</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://geetsehgal.github.io/Photo_tracker/photo_tracker.html">
+          <span class="name">Photo_tracker</span>
+          <span class="desc">photography progress tracker</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://geetsehgal.github.io/lang_tracker">
+          <span class="name">lang_tracker</span>
+          <span class="desc">German learning tracker</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://geetsehgal.github.io/Vcard_parking/shop.html">
+          <span class="name">Vcard_parking</span>
+          <span class="desc">MoveMe — QR vehicle contact cards</span>
+        </a>
+      </li>
+    </ul>
+
+    <footer>Built and maintained by Geet Sehgal.</footer>
+  </div>
+</body>
+</html>
